@@ -1,0 +1,22 @@
+# vtk DataFile Version 2.0
+data
+ASCII
+DATASET POLYDATA
+POINTS 5 float
+ 1.5  0.0  0.0 
+ 0.0  1.5  0.0 
+ 1.5  1.5  0.0 
+ 0.0  0.0  0.0 
+-1.5 -1.5  0.0 
+LINES 1 3
+2 3 4 
+POLYGONS 1 5
+4 0 1 2 0 
+POINT_DATA 5
+COLOR_SCALARS lut 4
+1.0  0.0  0.0  1.0
+0.0  1.0  0.0  1.0
+0.0  0.0  1.0  1.0
+0.0  0.0  0.0  1.0
+0.0  0.0  0.0  1.0
+
